@@ -36,7 +36,7 @@ We had two diverging implementations of the maze data initially. One of which wa
 
 The graph implementation was based on a 2D array of maze rooms (nodes) which are connected via doors (edges), which can be on the north, south, east, or west walls of the room.
 
-The tile implementation treated rooms, doors, and walls, as "maze tiles" also stored ina 2D array, with different behaviors. Rooms and doors can be traversed, while walls are always impassable. However doors must be answered correctly in order to be traversed, otherwise they will stay blocked.
+The tile implementation treated rooms, doors, and walls, as "maze tiles" also stored in a 2D array, with different behaviors. Rooms and doors can be traversed, while walls are always impassable. However doors must be answered correctly in order to be traversed, otherwise they will stay blocked.
 
 We decided to go forward with the graph implementation because it allowed us to generate random mazes with [Kruskal's Algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm). By using a graph, we could also use [breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) to determine whether or not the player can reach the end of the maze, and end the game if they can't.
 
