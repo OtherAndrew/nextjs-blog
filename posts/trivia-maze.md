@@ -9,12 +9,19 @@ date: '2023-12-28'
 
 Trivia Maze is a game where the player must make their way through a maze to the goal room. In order to move, the player must open doors by answering trivia questions correctly. If the player answers the question incorrectly then the door will be locked and cannot be opened. If the path to the goal is blocked then the game is lost.
 
+# Goals
+
+- Develop a software project in a team following agile methodologies, including user stories and storyboarding.
+- Create clean, easily testable code following [SOLID](https://en.wikipedia.org/wiki/SOLID) principles of object-oriented programming.
+- Utilize software design patterns such as [model–view–controller (MVC)](https://en.wikipedia.org/wiki/Model–view–controller), [factory](https://en.wikipedia.org/wiki/Factory_method_pattern), and [singleton](https://en.wikipedia.org/wiki/Singleton_pattern) to structure our code.
+- Employ Git and GitHub to facilitate effective collaboration and version control.
+
 # Technologies Used
 
 - Java
-- JUnit
-- Swing
-- SQLite
+- [JUnit](https://junit.org/junit5/)
+- [Swing](https://en.wikipedia.org/wiki/Swing_(Java))
+- [SQLite](https://www.sqlite.org/index.html)
 
 # Notable Features
 
