@@ -37,6 +37,8 @@ Trivia Maze is a game where the player must make their way through a maze to the
 
 I worked on Trivia Maze in a group of three. As part of this development team, I was responsible for assembling weekly deliverables, writing documentation, creating unit tests, developing the system that translated the maze data into a human-readable image, and implementing the GUI.
 
+Implementing the various UI elements such as buttons and text fields was straightforward once I got used to using Swing, but I noticed I had a lot of repeated code, which would be exacerbated if I wanted to change how the UI elements looked beyond the default appearance. The solution I came up with was to create a separate class that contained methods for generating standard UI elements, as well as the colors we wanted to use throughout the application - the app theme. Any UI class would then import this class and gain access to the app theme.
+
 # Challenges
 
 We had two diverging implementations of the maze data initially. One of which was based on a graph data structure and another which was based on "tiles."
