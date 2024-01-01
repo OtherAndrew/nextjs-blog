@@ -4,6 +4,8 @@ date: '2023-12-28'
 updated: '2023-12-31'
 ---
 
+/images/trivia-maze/main-screen.png
+
 [Trivia Maze](https://github.com/OtherAndrew/trivia-maze) is a project I worked on in 2022 as a part of my Software Development and QA class at UW Tacoma. In this post, I will go over the development process and some unique challenges my team faced during development.
 
 # Description
@@ -25,6 +27,8 @@ Trivia Maze is a game where the player must make their way through a maze to the
 - [SQLite](https://www.sqlite.org/index.html)
 
 # Notable Features
+
+/images/trivia-maze/game-screen.png
 
 - **Intuitive GUI design**: All functionality is accessible through the GUI, including changing the maze size, saving and loading game sessions, and activating cheats. I was able to present the game to a family member and they were able to play the game with no explanation.
 - **Consistent GUI appearance**: This required clever use of composition. We decided to use a class for our theming that contained constants for colors and static methods to build GUI components.
@@ -63,5 +67,7 @@ Two concepts my team neglected to consider until near the end of development was
 Since we neglected to use interfaces at the start of development, we had a hard time testing the maze functionality until all the pieces of the maze (rooms, doors, and questions) came together. We weren't able to use [mock objects](https://en.wikipedia.org/wiki/Mock_object) to substitute functionality for objects that were in development since we didn't have a good idea of what the object needed to do in the first place. Defining interfaces before implementing the real objects would have given us a clearer understanding of what the objects need to accomplish.
 
 Using test-driven development would have made developing unit tests for our code easier and it would have allowed us to troubleshoot bugs earlier. We decided to develop our unit tests after we finished implementing the rest of the program and found that there were some parts of our code which were difficult to test due to internal randomization or excessive dependencies. Creating the unit tests and considering every scenario and edge case first would have allowed us to sort out these problems sooner rather than later.
+
+/images/trivia-maze/win-screen.png
 
 Overall, this project served as a great example of what to expect and consider when undertaking a software development project. I gained valuable experience in planning and designing, project management, debugging, and of course, programming. The skills I gained over the course of this project served me well in future projects.
