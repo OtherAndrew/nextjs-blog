@@ -20,7 +20,9 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+/*   text-decoration: underline; */
+  color: #FF79C6;
+  transition: color 0.5s;
 }
 
 img {
