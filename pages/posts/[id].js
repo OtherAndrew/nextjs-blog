@@ -31,6 +31,12 @@ export default function Post({ postData }) {
                 <div className={utilStyles.lightText}>
                     <Date dateString={postData.date} />
                 </div>
+                {postData.updated && (
+                    <div className={utilStyles.updatedText}>
+                        <span>Updated </span>
+                        <Date dateString={postData.updated} />
+                    </div>
+                )}
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             </article>
         </Layout>

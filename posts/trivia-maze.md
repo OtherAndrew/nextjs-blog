@@ -1,6 +1,7 @@
 ---
 title: 'Trivia Maze'
 date: '2023-12-28'
+updated: '2023-12-31'
 ---
 
 [Trivia Maze](https://github.com/OtherAndrew/trivia-maze) is a project I worked on in 2022 as a part of my Software Development and QA class at UW Tacoma. In this post, I will go over the development process and some unique challenges my team faced during development.
