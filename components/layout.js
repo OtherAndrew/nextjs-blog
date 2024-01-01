@@ -65,7 +65,15 @@ export default function Layout({ children, home }) {
                 </div>
             )}
             <div className={styles.header}>
-                <Link href="https://github.com/OtherAndrew/nextjs-blog">GitHub</Link>
+                <Link href="https://github.com/OtherAndrew/nextjs-blog">
+                    <Image
+                        src="/images/GitHub-Mark-ea2971cee799.png"
+                        className={utilStyles.borderCircle}
+                        height={32}
+                        width={32}
+                        alt="GitHub link"
+                    />
+                </Link>
             </div>
         </div>
     );
